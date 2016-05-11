@@ -1,0 +1,203 @@
+ 
+
+/* The container sets the width as a percentage of the browser window and margin 0 auto centers the page
+ Note that all measurements are in relative units*/
+	
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+html, body {
+    background-image:url("../images/orangetree.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.logo {
+        display: block;
+        width: 100%;
+        padding-top: 40%;
+        margin-left: auto;
+        margin-right: auto;
+		text-align: center;
+        /*transform: translate(-50%, -50%);*/
+        transition: .2s;
+}
+
+.logo:hover {
+    opacity:0;
+}
+
+/*#headerabout {
+    font-family: 'Josefin Slab', serif;
+    font-size: 4em;
+    color: #fff;
+    margin: -13.5% 0% 0% 0%;
+    position: absolute;
+}
+
+#headercontact {
+    font-family: 'Josefin Slab', serif;
+    font-size: 4em;
+    color: #fff;
+    margin: -6.7% 0% 0% 15%;
+    position: absolute;
+}*/
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    font-style: bold;
+    font-size:2.5em;
+}
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.7em;
+    text-align: justify left;
+   
+}
+
+p {
+    font-family: Roboto;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+
+section h3 {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 8% 0 0 0;
+}
+
+section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/*This sets the maximum width of the image to no more than the containing element*/
+img {
+    max-width: 100%;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Start of Nav menu*/
+
+ /*This sets the font size and removes the default bullets from the ul list. Also sets the overall with of the ul as a percentage of the containing element*/
+
+
+#navigation ul {
+    background-color: #fff;
+    display: block;
+    margin: 90% 0 60% 0;
+    padding: 5% 0% 5% 0%;
+    overflow: hidden;
+    width: 100%;
+}
+
+#navigation ul li {
+    display: block;
+    text-align: right;
+    padding: 5% 5% 1% 5%;
+    margin: 0 0 0 0%;
+    font-family: 'Josefin Slab', serif;
+    font-style: bold;
+    font-size:2.5em;
+    position: relative;
+
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+}
+
+a:link {
+    color: #000;
+    font-family: 'Josefin Slab', serif;
+    text-decoration:none;
+    }
+
+a:visited {
+    color: #000;
+    font-family: 'Josefin Slab', serif;
+    text-decoration:none;
+}
+a:hover { 
+    color: #ffae42;
+    font-family: 'Josefin Slab', serif;
+    text-decoration:none;
+    }
+
+#about {
+    background-color: #fff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 6%;
+    border-radius: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 110%;
+
+}
+#contact {
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    margin: 60% 0 0% 0;
+    position: relative;
+}
+#contact ul {
+
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5em;
+    padding: 10% 0% 10% 0%;
+    position: relative;
+    float: left;
+    left: 50%;
+    text-align: center;
+
+}
+
+#contact ul li {
+    font-size: 1.5em;
+    display: block;
+    position: relative;
+    float: left;
+    right: 50%;
+}
+
+#contact ul li a {
+    padding-right: 60%;
+}
+
+#linktotop a {
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none;
+    margin: 0% 0% 50% 0%;
+    text-align: right;
+}
+
+#linktotop a:hover {
+    color: #ffae42;
+}
+
+#linktotop {
+    margin: 0% 0% 50% 0%;
+    text-align: right;
+}
+
+@media {
+    img {
+        max-width: 50%;
+        }
