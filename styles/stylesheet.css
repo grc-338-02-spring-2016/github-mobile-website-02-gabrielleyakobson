@@ -1,141 +1,113 @@
- 
-
-/* The container sets the width as a percentage of the browser window and margin 0 auto centers the page
- Note that all measurements are in relative units*/
-	
 .container {
-    width: 100%;
-    margin: 0 auto;
-}
+        width: 100%;
+        margin: 0 auto;
+        }
 
 html, body {
-    background-image:url("../images/orangetree.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    
-}
+        background-image:url("../images/orangetree.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;  
+        }
 
 .logo {
         display: block;
-        width: 100%;
+        width: 70%;
         padding-top: 40%;
         margin-left: auto;
         margin-right: auto;
 		text-align: center;
-        /*transform: translate(-50%, -50%);*/
+        }
+
+/*DOWNWARD ARROW*/
+.movedown {
+        display: block;
+        width: 50%;
+        padding-top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+		text-align: center;
         transition: .2s;
-}
+        font-size: 7em;
+        font-family: sans-serif;
+        color: #fff;
+        }
 
-.logo:hover {
-    opacity:0;
-}
-
-/*#headerabout {
-    font-family: 'Josefin Slab', serif;
-    font-size: 4em;
-    color: #fff;
-    margin: -13.5% 0% 0% 0%;
-    position: absolute;
-}
-
-#headercontact {
-    font-family: 'Josefin Slab', serif;
-    font-size: 4em;
-    color: #fff;
-    margin: -6.7% 0% 0% 15%;
-    position: absolute;
-}*/
+        .movedown:hover {
+                opacity:0;
+                }
 
 h1 {
-    font-family: 'Josefin Slab', serif;
-    font-style: bold;
-    font-size:2.5em;
-}
+        font-family: 'Josefin Slab', serif;
+        font-style: bold;
+        font-size:2.5em;
+        }
 
 h2 {
-    font-family: 'Josefin Slab', serif;
-    font-size: 1.7em;
-    text-align: justify left;
-   
-}
+        font-family: 'Josefin Slab', serif;
+        font-size: 1.7em;
+        text-align: justify left;
+        }
 
 p {
-    font-family: Roboto;
-    font-size: 1em;
-    line-height: 1.6em;
-}
-
-
-section h3 {
-    font-size: 1.8em;
-    text-align: center;
-    padding: 8% 0 0 0;
-}
-
-section p {
-    font-size: 1em;
-    line-height: 1.6;
-}
+        font-family: sans-serif;
+        font-size: 5em;
+        color: #fff;
+        }
 
 /*This sets the maximum width of the image to no more than the containing element*/
 img {
-    max-width: 100%;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-}
-/*Start of Nav menu*/
-
- /*This sets the font size and removes the default bullets from the ul list. Also sets the overall with of the ul as a percentage of the containing element*/
-
+        max-width: 100%;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        }
 
 #navigation ul {
-    background-color: #fff;
-    display: block;
-    margin: 90% 0 60% 0;
-    padding: 5% 0% 5% 0%;
-    overflow: hidden;
-    width: 100%;
-}
+        background-color: #fff;
+        display: block;
+        margin: 70% 0 40% 0;
+        padding: 5% 0% 5% 0%;
+        overflow: hidden;
+        width: 100%;
+        }
 
 #navigation ul li {
-    display: block;
-    text-align: right;
-    padding: 5% 5% 1% 5%;
-    margin: 0 0 0 0%;
-    font-family: 'Josefin Slab', serif;
-    font-style: bold;
-    font-size:2.5em;
-    position: relative;
-
-}
+        display: block;
+        text-align: right;
+        padding: 5% 5% 1% 5%;
+        margin: 0 0 0 0%;
+        font-family: 'Josefin Slab', serif;
+        font-style: bold;
+        font-size:2.5em;
+        position: relative;
+        }
 
 #navigation ul li a {
-    text-decoration: none;
-    font-weight: 400;
-    position: relative;
-}
+        text-decoration: none;
+        font-weight: 400;
+        position: relative;
+        }
 
-a:link {
-    color: #000;
-    font-family: 'Josefin Slab', serif;
-    text-decoration:none;
-    }
+        a:link {
+                color: #000;
+                font-family: 'Josefin Slab', serif;
+                text-decoration:none;
+                }
 
-a:visited {
-    color: #000;
-    font-family: 'Josefin Slab', serif;
-    text-decoration:none;
-}
-a:hover { 
-    color: #ffae42;
-    font-family: 'Josefin Slab', serif;
-    text-decoration:none;
-    }
+        a:visited {
+                color: #000;
+                font-family: 'Josefin Slab', serif;
+                text-decoration:none;
+                }
+        a:hover { 
+                color: #ffae42;
+                font-family: 'Josefin Slab', serif;
+                text-decoration:none;
+                }
 
 #about {
     background-color: #fff;
@@ -143,42 +115,47 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding: 6%;
+    padding: 10%;
     border-radius: 20px;
     font-family: 'Josefin Slab', serif;
-    font-size: 110%;
+    font-size: 150%;
+    }
 
-}
+#recentwork {
+    background-color: #fff;
+    padding: 2%;
+    margin: 40% 0 0 0;
+    }
+
+.your-class {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+    }
+
 #contact {
     width: 100%;
-    float: left;
+    float: right;
     background-color: #fff;
-    margin: 60% 0 0% 0;
+    margin: 50% 0 0% 0;
     position: relative;
-}
+    }
+
 #contact ul {
 
     font-family: 'Josefin Slab', serif;
     font-size: 2.5em;
     padding: 10% 0% 10% 0%;
-    position: relative;
-    float: left;
-    left: 50%;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-
-}
+    }
 
 #contact ul li {
     font-size: 1.5em;
     display: block;
-    position: relative;
-    float: left;
-    right: 50%;
-}
-
-#contact ul li a {
-    padding-right: 60%;
-}
+    width: 25%;
+    }
 
 #linktotop a {
     font-size: 3em;
@@ -186,18 +163,58 @@ a:hover {
     text-decoration: none;
     margin: 0% 0% 50% 0%;
     text-align: right;
-}
+    }
 
-#linktotop a:hover {
-    color: #ffae42;
-}
+    #linktotop a:hover {
+        color: #ffae42;
+        }
 
 #linktotop {
-    margin: 0% 0% 50% 0%;
+    margin: 0% 3% 50% 0%;
     text-align: right;
-}
+    }
 
-@media {
-    img {
-        max-width: 50%;
-        }
+ /* For tablets: */
+@media only screen and (min-width: 768px) {
+
+    #navigation ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50% 0 40% 0;
+    }
+    
+    #contact {
+    margin: 45% 0 0% 0;
+    }
+    
+    .your-class {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5%;
+    }
+    
+/* For desktop: */
+
+@media only screen and (min-width: 1024px) {
+    
+    #navigation ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40% 0 40% 0;
+   }
+    
+    #contact {
+    margin: 45% 0 0% 0;
+    }
+    
+    .logo {
+        padding-top: 30%;
+    }
+    .your-class {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    }
+
