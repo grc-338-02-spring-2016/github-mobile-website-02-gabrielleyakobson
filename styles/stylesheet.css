@@ -10,7 +10,7 @@ html, body {
         padding: 0;
         margin: 0;
         height: 100%;
-        width: 100%;  
+        max-width: 100%;  
         }
 
 .logo {
@@ -203,7 +203,7 @@ img {
     flex-direction: row;
     justify-content: center;
     margin: 40% 0 40% 0;
-   }
+    }
     
     #contact {
     margin: 45% 0 0% 0;
@@ -212,9 +212,29 @@ img {
     .logo {
         padding-top: 30%;
     }
-    .your-class {
-    width: 80%;
-    margin: 0 auto;
-    padding: 5%;
-    }
 
+    @media only screen and (min-width: 375px) {
+    html, body {
+        background-image:url("../images/orangetree.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        max-width: 100%;  
+        }
+        
+    #navigation ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40% 0 40% 0;
+    }
+    
+    #contact {
+    margin: 45% 0 0% 0;
+    }
+    
+    .logo {
+        padding-top: 30%;
+    }
